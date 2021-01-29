@@ -75,7 +75,7 @@ anim = ggplot(data,
   scale_fill_manual(values = mycolors) + 
   transition_states(Year, transition_length = 1, state_length = 1) +
   ease_aes('sine-in-out') +
-  labs(title = 'The 20 Happiest Countries In the World: {closest_state}',
+  labs(title = 'The 15 Happiest Countries In the World: {closest_state}',
        caption = "Data Source: https://www.kaggle.com/unsdsn/world-happiness")
 
 animate(anim, 
